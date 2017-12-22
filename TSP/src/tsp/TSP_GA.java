@@ -35,7 +35,7 @@ public class TSP_GA {
         System.out.println("Initial distance: " + pop.getBestTour().getDistance());
 
         pop = GA.evolvePopulation(pop);
-        for (int i = 0; i < 200; i++) {
+        for (int i = 0; i < 1000; i++) {
             pop = GA.evolvePopulation(pop);
         }
 
